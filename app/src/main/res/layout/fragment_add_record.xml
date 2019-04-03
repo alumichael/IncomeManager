@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddRecord">
+
+    <Button
+        android:id="@+id/monthly_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/yearly_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yearly"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/weekly_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Weekly"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/daily_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+
+
+</LinearLayout>

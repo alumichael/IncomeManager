@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/input_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Income"
+        android:drawableEnd="@drawable/ic_total"
+        android:layout_margin="4dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        style="@style/Widget.AppCompat.EditText"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/saving_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Saving Goal"
+        android:drawableEnd="@drawable/ic_saving"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        style="@style/Widget.AppCompat.EditText"
+        android:inputType="textLongMessage"
+        />
+    <EditText
+        android:id="@+id/set_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Date format(DD/MM/YYYY)"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:drawableEnd="@drawable/ic_date"
+        style="@style/Widget.AppCompat.EditText"
+        android:inputType="textLongMessage"
+        />
+    <Button
+        android:id="@+id/update_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Edit"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:textColor="@color/white"
+        android:background="@drawable/circle"
+        android:layout_margin="4dp"
+        />
+</LinearLayout>

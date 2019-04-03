@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/store"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        />
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Email Address"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        style="@style/Widget.AppCompat.EditText"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        style="@style/Widget.AppCompat.EditText"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:textColor="@color/white"
+        android:background="@drawable/circle"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:id="@+id/not_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/not_register"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:layout_margin="8dp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+
+        />
+    <TextView
+        android:id="@+id/user_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

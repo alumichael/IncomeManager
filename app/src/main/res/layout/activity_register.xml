@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/store"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        />
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="First Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        style="@style/Widget.AppCompat.EditText"
+        android:inputType="textPersonName"
+        />
+
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Last Name"
+            style="@style/Widget.AppCompat.EditText"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Username"
+            style="@style/Widget.AppCompat.EditText"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Password"
+            style="@style/Widget.AppCompat.EditText"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Email Adress"
+            style="@style/Widget.AppCompat.EditText"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:inputType="textEmailAddress"
+            />
+
+  <!--  Register Button-->
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:text="@string/register_button"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:textColor="@color/white"
+        android:background="@drawable/circle"
+        />
+    <Button
+        android:id="@+id/already_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_register"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+
+        />
+    <TextView
+        android:id="@+id/user_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

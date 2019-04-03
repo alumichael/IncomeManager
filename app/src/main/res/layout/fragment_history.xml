@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".History">
+
+   <Button
+       android:id="@+id/sort_by_date_btn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Sort by Date"
+       android:layout_margin="8dp"
+       android:textColor="@color/white"
+       android:background="@color/colorPrimaryDark"
+
+       />
+    <Button
+        android:id="@+id/update_record_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Record"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/edit_record_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Edit Record"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/delete_record_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Record"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:id="@+id/notification_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+</LinearLayout>

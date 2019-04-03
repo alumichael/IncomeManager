@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "267093325103",
+    "firebase_url": "https://incomemanager.firebaseio.com",
+    "project_id": "incomemanager",
+    "storage_bucket": "incomemanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267093325103:android:6b6a04df210f0db9",
+        "android_client_info": {
+          "package_name": "com.mike4christ.incomemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267093325103-ta61gfdip5gbuu9b2pehsgb0jdvpue8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mike4christ.incomemanager",
+            "certificate_hash": "aa45bb2d83489734529217104b38ec7b2b5d3f39"
+          }
+        },
+        {
+          "client_id": "267093325103-1su86ce8mv27benlmtcj739fr8gfqksm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzF_OsJOfUrwurkFBdc0vNDaqkS6WAHPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267093325103-1su86ce8mv27benlmtcj739fr8gfqksm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

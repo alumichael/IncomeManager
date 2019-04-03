@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expenses">
+        <item>@string/food</item>
+        <item>@string/cloth</item>
+        <item>@string/house</item>
+        <item>@string/study</item>
+        <item>@string/health</item>
+        <item>@string/communication</item>
+        <item>@string/transport</item>
+        <item>@string/Religion</item>
+        <item>@string/Others</item>
+    </string-array>
+</resources>
